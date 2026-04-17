@@ -1,6 +1,6 @@
 const apiUrl = "https://lanciweb.github.io/demo/api/pictures/";
 let cardContainer = document.querySelector("#cards-container");
-
+ 
 fetch(apiUrl)
     .then(function (datiApi) {
         return datiApi.json();
@@ -12,4 +12,3 @@ fetch(apiUrl)
     .catch(error => {
         console.error(error);
     });
-    
