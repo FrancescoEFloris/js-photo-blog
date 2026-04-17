@@ -51,7 +51,16 @@ body {
 
 .card-img {
     aspect-ratio: 1;
-    padding-bottom: 10px;
+}
+
+.card-img:hover {
+    box-shadow: 0 5px 5px 0 rgba(0, 0, 0, 0.5);
+    transition: all 0.5s ease;
+    opacity: 0.8;
+}
+
+.card-description {
+    padding-top: 10px;
 }
 
 /* font-family: "Sometype Mono", monospace; */

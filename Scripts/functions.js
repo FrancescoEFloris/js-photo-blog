@@ -10,7 +10,7 @@ function stampaCarte(jsonData) {
             <div class="bg-white p-4 board-item">
                 <img src="./imgs/pin.svg" class="pin-img" alt="">
                 <img src="${currentPic.url}" class="card-img" alt="${currentPic.title}">
-                <div>
+                <div class="card-description">
                     <h2 class="title-card">${currentPic.title}</h2>
                     <p class="date-card">${currentPic.date}</p>
                 </div>
