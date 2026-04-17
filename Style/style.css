@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: "Sometype Mono", monospace;
 }
 
 /* header style*/
@@ -33,8 +34,17 @@ body {
 }
 
 /*pinned imgs*/
-.pin-section {
+.board-section {
     padding: 50px 0;
+}
+.board-item {
+    position: relative;
+}
+.pin-img {
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 0px;
+    left: 50%;
 }
 
 .card-img {

@@ -6,7 +6,7 @@ fetch(apiUrl)
         return datiApi.json();
     })
     .then(function (jsonData) {
-        console.log(jsonData);
+        // console.log(jsonData);
         stampaCarte(jsonData);
     })
     .catch(error => {
