@@ -4,5 +4,32 @@
     box-sizing: border-box;
 }
 
+header {
+    /*Flex*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /*concrete bg*/
+    background-image: url("../imgs/wall.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 150px;
+
+    h1 {
+        font-family: "Edu TAS Beginner", cursive;
+        font-size: 96px;
+        font-weight: 700;
+    }
+}
+
+body {
+    /*cork bg*/
+    background-image: url("../imgs/cork.png");
+    background-size: cover;
+    background-position: center;
+}
+
+
 /* font-family: "Sometype Mono", monospace; */
 /* font-family: "Edu TAS Beginner", cursive; */
