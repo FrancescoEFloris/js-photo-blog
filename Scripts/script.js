@@ -1,6 +1,7 @@
 const apiUrl = "https://lanciweb.github.io/demo/api/pictures/";
-let cardContainer = document.querySelector("#cards-container");
- 
+let cardsContainer = document.querySelector("#cards-container");
+let mod = document.querySelector("#mod");
+
 fetch(apiUrl)
     .then(function (datiApi) {
         return datiApi.json();
@@ -12,3 +13,6 @@ fetch(apiUrl)
     .catch(error => {
         console.error(error);
     });
+
+cardsContainer.addEventListener("click", addImg);
+mod.addEventListener("click", closeOverlay);
